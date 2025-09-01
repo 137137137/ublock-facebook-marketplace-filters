@@ -5,9 +5,9 @@ Direct filter lists to remove Facebook Marketplace item blocks, eBay-sourced lis
 ## Subscribe
 
 ### One-click (desktop uBlock Origin)
-```
-ublock://subscribe?location=https://raw.githubusercontent.com/137137137/ublock-facebook-marketplace-filters/main/filters/all.txt&title=Marketplace%20Cleanup
-```
+
+[One-click subscribe (desktop uBlock Origin)](ublock://subscribe?location=https://raw.githubusercontent.com/137137137/ublock-facebook-marketplace-filters/main/filters/all.txt&title=Marketplace%20Cleanup)
+
 
 ### Manual
 1. Open uBlock Origin dashboard  
