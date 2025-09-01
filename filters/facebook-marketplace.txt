@@ -1,0 +1,12 @@
+! Title: Facebook Marketplace Cleanup (uBO)
+! Description: Hides Marketplace item blocks and "Delivered to you" modules on facebook.com.
+! Homepage: https://github.com/137137137/ublock-facebook-marketplace-filters
+! Expires: 365 days
+! Version: 2025.09.01
+! License: MIT
+
+! --- Rules ---
+facebook.com##a[href^="/marketplace/item/"]:has(svg path[transform*="translate(-444 -156)"]):upward(8)
+facebook.com##div[data-virtualized="false"]:has(svg[width="16"][height="16"] path[transform]):upward(2)
+facebook.com##div[style*="max-width:381px"]:has(svg path[d^="M99.75 20.5"]):upward(2)
+facebook.com##div[style*="max-width:381px"]:has(span[class*="xlyipyv"]:has-text("Delivered to you")):upward(2)
