@@ -6,7 +6,7 @@ Direct filter lists to remove Facebook Marketplace item blocks, eBay-sourced lis
 
 ### One-click (desktop uBlock Origin)
 
-[One-click subscribe (desktop uBlock Origin)](ublock://subscribe?location=https://raw.githubusercontent.com/137137137/ublock-facebook-marketplace-filters/main/filters/all.txt&title=Marketplace%20Cleanup)
+[One-click subscribe (desktop uBlock Origin)](ublock://subscribe?location=https://raw.githubusercontent.com/137137137/ublock-facebook-marketplace-filters/main/filters/facebook-marketplace.txt&title=Marketplace%20Cleanup)
 
 
 ### Manual
@@ -14,13 +14,12 @@ Direct filter lists to remove Facebook Marketplace item blocks, eBay-sourced lis
 2. Go to **Filter lists → Custom → Import… / Add a list**  
 3. Paste this URL:  
    ```
-   https://raw.githubusercontent.com/137137137/ublock-facebook-marketplace-filters/main/filters/all.txt
+   https://raw.githubusercontent.com/137137137/ublock-facebook-marketplace-filters/main/filters/facebook-marketplace.txt
    ```
 4. Apply changes → Update now  
 
 ## Files
 - `filters/facebook-marketplace.txt` — Facebook rules  
-- `filters/all.txt` — aggregate list (subscribe to this)  
 
 ## Rules Included
 ```
