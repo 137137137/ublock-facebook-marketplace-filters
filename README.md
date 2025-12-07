@@ -3,13 +3,6 @@
 Direct filter lists to remove Facebook Marketplace item blocks, eBay-sourced listings, and “Delivered to you” / “Shipped” modules. 
 
 ## Subscribe
-
-### One-click (desktop uBlock Origin)
-
-[One-click subscribe (desktop uBlock Origin)](ublock://subscribe?location=https://raw.githubusercontent.com/137137137/ublock-facebook-marketplace-filters/main/filters/facebook-marketplace.txt&title=Marketplace%20Cleanup)
-
-
-### Manual
 1. Open uBlock Origin dashboard  
 2. Go to **Filter lists → Custom → Import… / Add a list**  
 3. Paste this URL:  
